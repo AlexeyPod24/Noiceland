@@ -35,6 +35,49 @@ a, a:visited, a:active {
   font-size: 0.875rem;
 }
 
+.font-libre__type {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #999999;
+  padding-bottom: 2em;
+}
+
+.font-libre__author {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 2em;
+}
+
+.font-tenor__title {
+  font-family: "Tenor Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #000000;
+  padding-bottom: 1em;
+}
+
+.font-tenor__title_bigger_font {
+  font-size: 2.25rem;
+}
+
+.main-text__description {
+  font-family: "Source Serif Pro";
+  font-weight: 400;
+  font-size: 16px;
+  color: #666666;
+  padding-bottom: 1.75em;
+  color: #666666;
+}
+
 .header-logo {
   display: inline;
 }
@@ -50,20 +93,45 @@ a, a:visited, a:active {
   gap: 40px;
 }
 
-main {
-  display: flex;
+.main {
   padding-top: 5.96em;
+}
+.main-container-landing {
+  display: flex;
+}
+.main-container-landing__text {
+  padding-left: 3.19em;
+}
+
+.main-three-box-flex {
+  display: flex;
+  gap: 17px;
+  flex-wrap: wrap;
+  padding-top: 3.7em;
+}
+.main-three-box-flex__item {
+  width: 32.38%;
+}
+.main-three-box-flex__image {
+  padding-bottom: 1.25em;
+}
+
+.main-four-box-flex {
+  padding-top: 9.75em;
+}
+.main-four-box-flex__item {
+  width: 23.9%;
 }
 
 section {
   width: 100%;
 }
 
-.main-image {
+.main-container-landing__image {
   width: 60%;
 }
 
-.main-text {
+.main-container-landing__text {
   width: 40%;
 }
 

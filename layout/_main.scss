@@ -1,4 +1,31 @@
-main {
-    display: flex;
+.main {
     padding-top: 5.96em;
+    &-container-landing {
+        display: flex;
+    }
+    &-container-landing__text {
+        padding-left: 3.19em;
+    }
+}
+
+// Second Container with 6 images in flex
+
+.main-three-box-flex {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    padding-top: 3.7em;
+    &__item {
+        width: 32.38%;
+    }
+    &__image {
+        padding-bottom: 1.25em;
+    }
+}
+
+.main-four-box-flex {
+    padding-top: 9.75em;
+    &__item {
+        width: 23.9%;
+    }
 }
