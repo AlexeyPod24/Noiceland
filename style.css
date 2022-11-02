@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  min-width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: "Tenor Sans";
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+.header-nav__items {
+  font-family: "Libre Franklin";
+  font-size: 0.875rem;
+}
+
+.header-logo {
+  display: inline;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.87rem;
+}
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+main {
+  display: flex;
+  padding-top: 5.96em;
+}
+
+section {
+  width: 100%;
+}
+
+.main-image {
+  width: 60%;
+}
+
+.main-text {
+  width: 40%;
+}
+
+.width-restriction {
+  max-width: 1200px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

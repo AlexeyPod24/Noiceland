@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.width-restriction {
+  max-width: 500px;
+  background-color: blue;
+  width: 100%;
+}/*# sourceMappingURL=index.css.map */

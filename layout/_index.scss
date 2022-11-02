@@ -1,0 +1,13 @@
+@forward "header";
+@forward "flex";
+@forward "main";
+@forward "section";
+
+// Width restriction for the whole page
+
+
+.width-restriction {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
