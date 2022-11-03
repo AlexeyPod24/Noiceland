@@ -168,13 +168,13 @@ a, a:visited, a:active {
 }
 
 .footer {
-  height: 500px;
   background-color: #141414;
 }
 .footer-top-header {
   padding-top: 5.8em;
   padding-bottom: 3em;
   border-bottom: 1pt solid #666666;
+  margin-bottom: 3.75em;
 }
 .footer-top-header__logo {
   display: inline-block;
@@ -186,15 +186,17 @@ a, a:visited, a:active {
 }
 .footer-bottom-links {
   display: flex;
-  gap: 88px;
+  gap: 5.5em;
   width: 100%;
+  box-sizing: border-box;
 }
 .footer-bottom-links__items {
-  width: 50%;
+  width: 15%;
   padding-bottom: 3.75em;
 }
 .footer-bottom-links__items__input {
-  padding: 20px;
+  padding: 20px 60px;
+  width: 40%;
   text-transform: uppercase;
 }
 .footer-bottom-links__items__input_button {
@@ -206,14 +208,18 @@ a, a:visited, a:active {
   padding: 18px 24px;
   letter-spacing: 1px;
 }
-.footer-categories-container {
-  padding-top: 3.75em;
+.footer-bottom-links__items_input_layout {
+  width: 30%;
+}
+.footer-bottom-links-categories {
   width: 100%;
   display: flex;
-  justify-content: flex-start;
-  gap: 820px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-.footer__categories {
+.footer-bottom-links__items__margins {
+  margin-top: 3.2em;
+}
+.footer-bottom-links__items__padding {
   padding-bottom: 3em;
-  letter-spacing: 0;
 }/*# sourceMappingURL=style.css.map */
