@@ -1,10 +1,23 @@
+
+.width-restriction {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .main {
     padding-top: 5.96em;
     &-container-landing {
         display: flex;
+        padding-bottom: 4em;
+        &-container-landing__image {
+            width: 60%;
+        }
+        
     }
     &-container-landing__text {
         padding-left: 3.19em;
+        width: 41%;
+        
     }
 }
 
@@ -14,7 +27,8 @@
     display: flex;
     gap: 17px;
     flex-wrap: wrap;
-    padding-top: 3.7em;
+    justify-content: center;
+    padding-bottom: 9em;
     &__item {
         width: 32.38%;
     }
@@ -24,8 +38,30 @@
 }
 
 .main-four-box-flex {
-    padding-top: 9.75em;
+    padding-bottom: 10em;
     &__item {
         width: 23.9%;
     }
+    &_button {
+    font-family: 'Libre Franklin';
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    margin-top: 4em;
+    padding: 21px 26px;
+    flex-wrap: nowrap;
+            }
 }
+
+.main-bottom-box-flex {
+    padding-bottom: 6em;
+    &__item {
+        width: 49.2%;
+    }
+}
+

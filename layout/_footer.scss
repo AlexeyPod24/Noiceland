@@ -1,0 +1,54 @@
+.footer {
+    height: 500px;
+    background-color: #141414;
+    &-top-header{
+    padding-top: 5.8em;
+    padding-bottom: 3.0em;
+    border-bottom: 1pt solid #666666;
+    }
+    &-top-header__logo {
+      display: inline-block;  
+    
+    }
+   &-top-header__trademark {
+    display: inline-block;
+    padding-bottom: 3.75em;
+    padding-left: 15px;
+   }
+  
+   &-bottom-links {
+    display: flex;
+    gap: 88px;
+    width: 100%;
+   }
+   &-bottom-links__items {
+    width: 50%;
+    padding-bottom: 3.75em;
+   }
+   &-bottom-links__items__input {
+    padding: 20px;
+    text-transform: uppercase;
+   }
+   &-bottom-links__items__input_button {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-family: 'Libre Franklin';
+    padding: 18px 24px;
+    letter-spacing: 1px;
+   }
+   &-categories-container {
+    padding-top: 3.75em;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    gap: 820px;
+   }
+
+   &__categories {
+    padding-bottom: 3em;
+    // display: inline-block;
+    letter-spacing: 0;
+   }
+}

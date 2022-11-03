@@ -78,6 +78,18 @@ a, a:visited, a:active {
   color: #666666;
 }
 
+.footer-font-dark {
+  color: #666666;
+  letter-spacing: 1px;
+}
+
+.footer-font-light {
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: none;
+  padding-bottom: 1.5em;
+}
+
 .header-logo {
   display: inline;
 }
@@ -93,21 +105,32 @@ a, a:visited, a:active {
   gap: 40px;
 }
 
+.width-restriction {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .main {
   padding-top: 5.96em;
 }
 .main-container-landing {
   display: flex;
+  padding-bottom: 4em;
+}
+.main-container-landing-container-landing__image {
+  width: 60%;
 }
 .main-container-landing__text {
   padding-left: 3.19em;
+  width: 41%;
 }
 
 .main-three-box-flex {
   display: flex;
   gap: 17px;
   flex-wrap: wrap;
-  padding-top: 3.7em;
+  justify-content: center;
+  padding-bottom: 9em;
 }
 .main-three-box-flex__item {
   width: 32.38%;
@@ -117,25 +140,80 @@ a, a:visited, a:active {
 }
 
 .main-four-box-flex {
-  padding-top: 9.75em;
+  padding-bottom: 10em;
 }
 .main-four-box-flex__item {
   width: 23.9%;
 }
+.main-four-box-flex_button {
+  font-family: "Libre Franklin";
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 0px;
+  margin-top: 4em;
+  padding: 21px 26px;
+  flex-wrap: nowrap;
+}
 
-section {
+.main-bottom-box-flex {
+  padding-bottom: 6em;
+}
+.main-bottom-box-flex__item {
+  width: 49.2%;
+}
+
+.footer {
+  height: 500px;
+  background-color: #141414;
+}
+.footer-top-header {
+  padding-top: 5.8em;
+  padding-bottom: 3em;
+  border-bottom: 1pt solid #666666;
+}
+.footer-top-header__logo {
+  display: inline-block;
+}
+.footer-top-header__trademark {
+  display: inline-block;
+  padding-bottom: 3.75em;
+  padding-left: 15px;
+}
+.footer-bottom-links {
+  display: flex;
+  gap: 88px;
   width: 100%;
 }
-
-.main-container-landing__image {
-  width: 60%;
+.footer-bottom-links__items {
+  width: 50%;
+  padding-bottom: 3.75em;
 }
-
-.main-container-landing__text {
-  width: 40%;
+.footer-bottom-links__items__input {
+  padding: 20px;
+  text-transform: uppercase;
 }
-
-.width-restriction {
-  max-width: 1200px;
-  margin: 0 auto;
+.footer-bottom-links__items__input_button {
+  background: #000000;
+  color: #FFFFFF;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-family: "Libre Franklin";
+  padding: 18px 24px;
+  letter-spacing: 1px;
+}
+.footer-categories-container {
+  padding-top: 3.75em;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 820px;
+}
+.footer__categories {
+  padding-bottom: 3em;
+  letter-spacing: 0;
 }/*# sourceMappingURL=style.css.map */
