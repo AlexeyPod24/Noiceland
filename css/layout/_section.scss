@@ -1,0 +1,40 @@
+@use '../global/typography' as s;
+
+// Landing container
+
+.landing-container {
+    padding-top:  3.75em;
+}
+
+// Boxes settings
+
+.boxes-settings {
+    width: 100%;
+    padding-top: 2.81em;
+    padding-bottom: 4.5em;
+    border-bottom: s.$section-lines;
+}
+
+//  6 Box
+.boxes-container-item-six {
+    width: 32%;
+}
+
+// 8 Box
+.boxes-container-item-eight {
+    width: 24%;
+}
+
+.boxes-eight-settings {
+    padding: 4.5em 0;
+}
+
+// 4 Settings
+
+.boxes-container-item-four {
+    width: 49.3%;
+}
+
+.boxes-four-settings {
+    padding-top: 4.5em;
+}

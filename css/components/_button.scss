@@ -1,0 +1,17 @@
+@use '../global/typography' as b;
+
+.button {
+    font-family: b.$font-for-small;
+    font-size: b.$text-small;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    border: 1px solid black;
+    padding: 20px;
+    width: 15%;
+    text-align: center;
+    margin: 0 auto;
+    
+
+    
+}

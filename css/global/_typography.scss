@@ -38,9 +38,10 @@ h1, h2, h3 {
     // Text Transform;
     $text-transform: uppercase;
   
-    // Padding 18px 15.23px 
+    // Padding 18px 15.23px and for image: 1.5em
     $padding-type: 1.5em;
     $padding-title: .95em;
+    
     
     // Line height
 
@@ -61,6 +62,7 @@ h1, h2, h3 {
     letter-spacing: $main-spacing;
     text-transform: $text-transform;
     padding-bottom: $padding-type;
+    padding-top: $padding-type;
     font-weight: $normal;
     
    }
@@ -113,6 +115,7 @@ h1, h2, h3 {
     color: $main-font-color;
     line-height: $line-title;
     font-weight: $bold;
+    padding-bottom: 2.5em;
     }
 
     .author {

@@ -19,6 +19,7 @@ a, a:visited, a:active {
   letter-spacing: 1px;
   text-transform: uppercase;
   padding-bottom: 1.5em;
+  padding-top: 1.5em;
   font-weight: 400;
 }
 
@@ -60,6 +61,7 @@ a, a:visited, a:active {
   color: black;
   line-height: 1.5rem;
   font-weight: 700;
+  padding-bottom: 2.5em;
 }
 
 * {
@@ -77,6 +79,19 @@ body, html {
 img {
   max-width: 100%;
   display: block;
+}
+
+.button {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid black;
+  padding: 20px;
+  width: 15%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 header {
@@ -100,8 +115,16 @@ nav {
   width: 39.2%;
 }
 
-.six-boxes-container {
+.boxes-container-flex {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: flex-end;
 }
 
 header {
@@ -121,4 +144,40 @@ nav {
 .width-restriction {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.landing-container {
+  padding-top: 3.75em;
+}
+
+.boxes-settings {
+  width: 100%;
+  padding-top: 2.81em;
+  padding-bottom: 4.5em;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.boxes-container-item-six {
+  width: 32%;
+}
+
+.boxes-container-item-eight {
+  width: 24%;
+}
+
+.boxes-eight-settings {
+  padding: 4.5em 0;
+}
+
+.boxes-container-item-four {
+  width: 49.3%;
+}
+
+.boxes-four-settings {
+  padding-top: 4.5em;
+}
+
+footer {
+  background-color: #141414;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

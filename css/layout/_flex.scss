@@ -1,4 +1,4 @@
-
+// Header
 
 header {
     display: flex;
@@ -21,7 +21,18 @@ nav {
     }
 }
 
-.six-boxes-container {
+// Boxes
+.boxes-container-flex {
+    width: 100%;
     display: flex;
-    
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+// Footer
+
+.logo-container {
+    display: flex;
+    align-items: flex-end;
 }
