@@ -1,9 +1,7 @@
-@forward 'css/global';
-@forward 'css/abstracts';
+@forward '../Noicelandv2/css/abstracts';
+@forward '../Noicelandv2/css/global';
 
-@forward '../Noicelandv2/css/layout';
+@forward 'css/layout';
 
-
-@use '../Noicelandv2/css/abstracts/mixins';
 
 

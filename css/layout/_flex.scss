@@ -1,3 +1,5 @@
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -6,4 +8,20 @@ header {
 nav {
     display: flex;
     gap: 2.5rem;
+}
+
+.landing-container {
+    display: flex;
+    gap: 3.19em;
+    &-image {
+        width: 60.8%;
+    }
+    &-text {
+        width: 39.2%;
+    }
+}
+
+.six-boxes-container {
+    display: flex;
+    
 }

@@ -1,3 +1,4 @@
+
 h1, h2, h3 {
     font-weight: 700;
     line-height: 1.1;
@@ -11,3 +12,110 @@ h1, h2, h3 {
     a, a:visited, a:active {
     text-decoration: none;
     }
+    // Variables 
+    $section-lines: 1px solid #E6E6E6;
+   
+   
+    // Font Types
+    $font-for-small: 'Libre Franklin';
+    $font-for-big: 'Tenor Sans';
+    
+    
+    // Font-Sizes 10px 14px 20px
+    $text-small: .625rem;
+    $text-medium: .875rem;
+    $text-large: 1.25rem;
+    
+    
+    //Colors 
+    $main-font-color: black;
+    $type-color: #999999;
+   
+   
+    // Letter Spacing
+    $main-spacing: 1px;
+    
+    // Text Transform;
+    $text-transform: uppercase;
+  
+    // Padding 18px 15.23px 
+    $padding-type: 1.5em;
+    $padding-title: .95em;
+    
+    // Line height
+
+    $line-title: 1.5rem;
+
+    // Font-weight
+    $normal: 400;
+    $bold: 700;
+
+    // Mixins
+
+    // TYPE
+
+   @mixin type-class {
+    font-family: $font-for-small;
+    font-size: $text-small;
+    color: $type-color;
+    letter-spacing: $main-spacing;
+    text-transform: $text-transform;
+    padding-bottom: $padding-type;
+    font-weight: $normal;
+    
+   }
+
+
+   .type {
+    @include type-class;
+   }
+
+    //    TITLE 
+
+    @mixin title-class {
+    font-family: $font-for-big;
+    font-size: $text-large;
+    text-transform: $text-transform;
+    color: $main-font-color;
+    padding-bottom: $padding-title;
+    line-height: $line-title;
+    font-weight: $normal;
+}
+
+    .title {
+        @include title-class;
+    }
+
+
+    .landing-contianer-text{
+    &__title {
+    @include title-class;
+    font-size: 2.25rem;
+    line-height: 42px;
+    padding-bottom: 1em;
+    }
+    &__description {
+        font-family: 'Source Serif Pro';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #666666;
+        padding-bottom: 28px;
+    }
+}
+
+    // Author
+
+    @mixin author {
+    font-family: $font-for-small;
+    font-size: $text-small;
+    text-transform: $text-transform;
+    color: $main-font-color;
+    line-height: $line-title;
+    font-weight: $bold;
+    }
+
+    .author {
+    @include author;
+    }
+

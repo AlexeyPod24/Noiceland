@@ -1,0 +1,18 @@
+@use '../global/typography' as u;
+
+
+header {
+    padding: 2.4em 0 2.7em 0;
+    
+}
+
+.header-container {
+    border-bottom: u.$section-lines;
+}
+
+nav {
+    font-family: u.$font-for-small;
+    font-size: .875rem;
+    color: u.$main-font-color;
+    
+}
