@@ -82,7 +82,35 @@ a, a:visited, a:active {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 0.5rem;
+  padding-bottom: 2.5em;
+  width: 100%;
+}
+
+.categories-content-items__styles {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0.5rem;
+  color: white;
+  letter-spacing: 0;
+  text-transform: none;
   padding-bottom: 2em;
+  font-size: 0.875rem;
+  line-height: 10px;
+}
+
+.categories-content-items__styles_dark {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0.5rem;
+  padding-bottom: 4em;
 }
 
 * {
@@ -115,6 +143,17 @@ img {
   margin: 0 auto;
 }
 
+.form__button {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: black;
+  padding: 1.2em;
+  color: #FFFFFF;
+  margin: 0;
+}
+
 input {
   font-family: "Libre Franklin";
   font-size: 0.625rem;
@@ -124,8 +163,23 @@ input {
   padding-bottom: 1.5em;
   padding-top: 1.5em;
   font-weight: 400;
-  padding: 0.8rem;
-  width: 40%;
+  padding: 1rem;
+  width: 100%;
+}
+
+.form-container {
+  padding-top: 3.5em;
+}
+
+.form-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title-container {
+  width: 50%;
 }
 
 header {
@@ -164,24 +218,18 @@ nav {
 .categories-content {
   display: flex;
   gap: 5.75em;
-  width: 50%;
-}
-.categories-content-items {
-  width: 20%;
 }
 
 .categories-and-form-container {
-  width: 100%;
   display: flex;
-  justify-content: flex-start;
-  padding-bottom: 3.5em;
+  padding-bottom: 7.5em;
+  flex-wrap: wrap;
 }
 
-.form-container {
+.form {
   display: flex;
-  flex-direction: column;
-  width: 40%;
-  padding-top: 3.5em;
+  justify-content: center;
+  width: 50%;
 }
 
 header {
@@ -234,10 +282,6 @@ nav {
   padding-top: 4.5em;
 }
 
-.form-container {
-  width: 40%;
-}
-
 footer {
   background-color: #141414;
   color: white;
@@ -253,9 +297,22 @@ footer {
 
 .categories-container {
   padding-top: 3.5em;
-  width: 60%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .categories-title {
-  padding-bottom: 1.5em;
+  padding-bottom: 2.5em;
+}
+
+.categories-content-items {
+  width: 20%;
+}
+
+.lower-categories-container {
+  width: 50%;
+  display: flex;
+  gap: 2.4em;
+  padding-top: 3.5em;
 }/*# sourceMappingURL=style.css.map */

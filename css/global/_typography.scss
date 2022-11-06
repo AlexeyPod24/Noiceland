@@ -142,7 +142,23 @@ h1, h2, h3 {
 
     .form-title-container__text {
     @include footer-categories-style;
-    padding-bottom: 2.0em;
+    padding-bottom: 2.5em;
+    width: 100%;
     }
 
-    
+    .categories-content-items__styles {
+        @include footer-categories-style;
+        color: white;
+        letter-spacing: 0;
+        text-transform: none;
+        padding-bottom: 2em;
+        font-size: $text-medium;
+        line-height: 10px;
+
+    }
+
+    .categories-content-items__styles_dark {
+        @include footer-categories-style;
+        padding-bottom: 4em;
+
+    }
