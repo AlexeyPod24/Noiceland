@@ -1,0 +1,8 @@
+@use '../global/typography' as i;
+
+input {
+    @include i.type-class;
+    padding: .8rem;
+    width: 40%;
+    
+}

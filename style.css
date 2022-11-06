@@ -64,6 +64,27 @@ a, a:visited, a:active {
   padding-bottom: 2.5em;
 }
 
+.footer-categories-style {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0.5rem;
+}
+
+.form-title-container__text {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  color: #666666;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0.5rem;
+  padding-bottom: 2em;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -92,6 +113,19 @@ img {
   width: 15%;
   text-align: center;
   margin: 0 auto;
+}
+
+input {
+  font-family: "Libre Franklin";
+  font-size: 0.625rem;
+  color: #999999;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding-bottom: 1.5em;
+  padding-top: 1.5em;
+  font-weight: 400;
+  padding: 0.8rem;
+  width: 40%;
 }
 
 header {
@@ -125,6 +159,29 @@ nav {
 .logo-container {
   display: flex;
   align-items: flex-end;
+}
+
+.categories-content {
+  display: flex;
+  gap: 5.75em;
+  width: 50%;
+}
+.categories-content-items {
+  width: 20%;
+}
+
+.categories-and-form-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 3.5em;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-top: 3.5em;
 }
 
 header {
@@ -177,7 +234,28 @@ nav {
   padding-top: 4.5em;
 }
 
+.form-container {
+  width: 40%;
+}
+
 footer {
   background-color: #141414;
   color: white;
+}
+
+.logo-container {
+  border-bottom: 1px solid #4D4D4D;
+  padding: 5.5em 0 3.75em 0;
+}
+.logo-container img {
+  padding-right: 1em;
+}
+
+.categories-container {
+  padding-top: 3.5em;
+  width: 60%;
+}
+
+.categories-title {
+  padding-bottom: 1.5em;
 }/*# sourceMappingURL=style.css.map */

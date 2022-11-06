@@ -36,3 +36,26 @@ nav {
     display: flex;
     align-items: flex-end;
 }
+
+.categories-content {
+    display: flex;
+    gap: 5.75em;
+    width: 50%;
+    &-items {
+        width: 20%;
+    }   
+}
+
+.categories-and-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 3.5em;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 3.5em;
+}

@@ -30,6 +30,7 @@ h1, h2, h3 {
     //Colors 
     $main-font-color: black;
     $type-color: #999999;
+    $footer-dark-color: #666666;
    
    
     // Letter Spacing
@@ -46,6 +47,7 @@ h1, h2, h3 {
     // Line height
 
     $line-title: 1.5rem;
+    $line-footer: .5rem;
 
     // Font-weight
     $normal: 400;
@@ -122,3 +124,25 @@ h1, h2, h3 {
     @include author;
     }
 
+
+    // FOOTER
+    @mixin footer-categories-style {
+    font-family: $font-for-small;
+    font-size: $text-small;
+    text-transform: $text-transform;
+    color: $footer-dark-color;
+    font-weight: $normal;
+    letter-spacing: $main-spacing;
+    line-height:$line-footer; 
+    }
+
+    .footer-categories-style {
+     @include footer-categories-style;
+    }
+
+    .form-title-container__text {
+    @include footer-categories-style;
+    padding-bottom: 2.0em;
+    }
+
+    
